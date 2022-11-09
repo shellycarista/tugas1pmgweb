@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Grade dari Nilai</title>
+</head>
+<body>
+    Nama : Shelly Carista<br />
+    NPM : 20552011187<br />
+    <script> //isi dari kondisi
+        var nilai = prompt("Masukan Nilai Anda"); //variabel nilai
+        var grade = ""; //variabel nilai
+
+        if(nilai >= 90) grade = "A" //jika nilai yang diinputkan lebih dari  90, maka nilainya A
+        else if(nilai >= 80) grade = "B"//jika nilai yang diinputkan lebih dari  80, maka nilainya B
+        else if(nilai >= 70) grade = "C" //jika nilai yang diinputkan lebih dari  70, maka nilainya C
+        else if(nilai >= 60) grade = "D" //jika nilai yang diinputkan lebih dari  60, maka nilainya D
+        else grade = "E"; //jika tidak diinputkan angka, maka nilainya E
+
+        document.write(`<p>Grade anda: ${grade}</p>`); //menampilkan keterangan nilai
+    </script>
+</body>
+</html>
